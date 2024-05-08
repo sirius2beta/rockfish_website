@@ -3,6 +3,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    height:50px;
+}
 
 .carousel {
     margin-bottom: 4rem;
