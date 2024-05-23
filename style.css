@@ -27,12 +27,26 @@
     height: 70vh;
 }
 
+.carousel-item > video {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 70vh;
+}
+
 @media only screen and (min-width: 768px){
     .carousel-item {
         height: 100vh;
         background-color: #777;
     }
     .carousel-item > img {
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .carousel-item > video {
         object-fit: cover;
         object-position: center;
         overflow: hidden;
